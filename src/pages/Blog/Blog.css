@@ -28,7 +28,8 @@
   line-height: 1.6;
 }
 
-.delete-btn {
+.delete-btn,
+.update-btn {
   align-self: flex-start;
   padding: 10px 20px;
   background-color: #ef4444;
@@ -41,4 +42,8 @@
 
 .delete-btn:hover {
   opacity: 0.9;
+}
+
+.update-btn {
+  background-color: rgb(93, 172, 93);
 }

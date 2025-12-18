@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <span>My Blog</span>
+          <span onClick={() => navigate("/")}>My Blog</span>
         </div>
 
         <button onClick={() => navigate("/create")} className="create-btn">

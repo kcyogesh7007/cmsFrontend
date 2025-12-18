@@ -34,6 +34,12 @@ const Blog = () => {
         <button onClick={handleDelete} className="delete-btn">
           Delete
         </button>
+        <button
+          onClick={() => navigate(`/update/${id}`)}
+          className="update-btn"
+        >
+          Update
+        </button>
       </div>
     </>
   );

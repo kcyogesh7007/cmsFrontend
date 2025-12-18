@@ -10,6 +10,7 @@ const Create = () => {
     title: "",
     subTitle: "",
     description: "",
+    image: "",
   });
 
   const handleChange = (e) => {
@@ -57,6 +58,7 @@ const Create = () => {
             onChange={handleChange}
           />
         </div>
+
         <div>
           <label htmlFor="description">Description</label>
           <textarea
